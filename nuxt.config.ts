@@ -4,6 +4,6 @@ export default defineNuxtConfig({
     extends: ["shadcn-docs-nuxt"],
     compatibilityDate: "2024-07-06",
     site: {
-        url: "https://inrialearninglab.github.io/stoocs-docs",
+        url: "https://inrialearninglab.github.io",
     },
 });
