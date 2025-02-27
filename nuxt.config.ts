@@ -6,4 +6,7 @@ export default defineNuxtConfig({
     site: {
         url: "https://inrialearninglab.github.io",
     },
+    app: {
+        baseURL: "/stoocs-docs",
+    },
 });
