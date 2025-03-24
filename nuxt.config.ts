@@ -15,4 +15,5 @@ export default defineNuxtConfig({
             clientDB: true,
         },
     },
+    ssr: true,
 });
