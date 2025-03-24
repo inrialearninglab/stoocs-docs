@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     },
     css: ["~/assets/css/theme-custom.css"],
     content: {
+        documentDriven: true,
         experimental: {
             clientDB: true,
         },
