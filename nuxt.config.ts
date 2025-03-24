@@ -10,4 +10,9 @@ export default defineNuxtConfig({
         baseURL: "/stoocs-docs",
     },
     css: ["~/assets/css/theme-custom.css"],
+    content: {
+        experimental: {
+            clientDB: true,
+        },
+    },
 });
