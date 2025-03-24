@@ -16,6 +16,6 @@ Entrez l'adresse email de l'utilisateur que vous souhaitez ajouter à votre équ
 Après avoir saisi l'adresse email, cliquez sur Inviter. Un lien d'invitation sera alors envoyés à l'utilisateur
 ::
 
-::alert{type="warning" icon="lucide:triangle-alert"}
+::alert{type="warning" icon="lucide:circle-alert"}
 Chaque invitation est valable pendant 1 semaine. Passé ce délai, l'invitation apparaîtra comme expirée et ne pourra plus être utilisée.
 ::

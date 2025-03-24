@@ -40,7 +40,8 @@ Ajouter la nouvelle session en remplissant les informations suivantes:
 
 ### Mettre à jour la liste des MOOCs sur Stoocs
 Rendez-vous sur Stoocs et cliquez sur le bouton "Mettre à jour la liste des MOOCs".
-::alert{icon="lucide:info}
-    Vous pourrez véfifier la liste des changements avant de les appliquer sur Stoocs.
+
+::alert{type="info" icon="lucide:info"}
+Vous pourrez véfifier la liste des changements avant de les appliquer sur Stoocs.
 ::
 ::

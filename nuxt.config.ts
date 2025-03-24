@@ -9,4 +9,5 @@ export default defineNuxtConfig({
     app: {
         baseURL: "/stoocs-docs",
     },
+    css: ["~/assets/css/theme-custom.css"],
 });

@@ -1,0 +1,63 @@
+.theme-inria {
+    --background: 0 0% 100%;
+    --foreground: 224 71.4% 4.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+
+    --primary: 216.04 98% 52%;
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 240 6% 90%;
+    --secondary-foreground: 220.9 39.3% 11%;
+
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 240 4% 41%;
+
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220.9 39.3% 11%;
+
+    --destructive: 0.01 72% 51%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 240 6% 90%;
+    --input: 0 0% 100%;
+    --ring: 216.04 98% 52%;
+    --radius: 0.75rem;
+    --overlay: rgba(0, 0, 0, 0.2);
+}
+.dark .theme-inria {
+    --background: 240 10% 3.92%;
+    --foreground: 210 20% 98%;
+
+    --card: 240.03 6% 6%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 240.03 6% 6%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 216.04 98% 52%;
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 240.01 7.1% 15%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 240 6% 10%;
+    --muted-foreground: 240 5.03% 64.9%;
+
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0.01 72% 51%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 240.01 7.1% 15%;
+    --input: 240 10% 3.92%;
+
+    --ring: 216.04 98% 52%;
+
+    --overlay: 240.03 6% 6%;
+}
