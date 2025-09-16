@@ -5,11 +5,13 @@ description: 'Ajouter une nouvelle session sur Stoocs'
 
 ::steps
 ### Ajouter la nouvelle sessions dans le fichier de configuration:
-Editer le fichier de configuration `courses.yml` kjsdf
+Editer le fichier de configuration `courses.yml`
 
-::alert{to="https://gitlab.inria.fr/learninglab/tools/stoocs/courses/-/blob/main/courses.yml?ref_type=heads" target="_blank" icon="lucide:link"}
-  Le fichier est disponible ici
+
+::tip{to="https://gitlab.inria.fr/learninglab/tools/stoocs/courses/-/blob/main/courses.yml?ref_type=heads" icon="lucide:link"}
+Le fichier est disponible ici
 ::
+
 Ajouter la nouvelle session en remplissant les informations suivantes:
 
 ::field-group
@@ -41,7 +43,8 @@ Ajouter la nouvelle session en remplissant les informations suivantes:
 ### Mettre à jour la liste des MOOCs sur Stoocs
 Rendez-vous sur Stoocs et cliquez sur le bouton "Mettre à jour la liste des MOOCs".
 
-::alert{type="info" icon="lucide:info"}
+::tip
 Vous pourrez véfifier la liste des changements avant de les appliquer sur Stoocs.
 ::
+
 ::

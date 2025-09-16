@@ -1,20 +1,34 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    devtools: { enabled: true },
-    extends: ["shadcn-docs-nuxt"],
-    compatibilityDate: "2024-07-06",
-    site: {
-        url: "https://inrialearninglab.github.io",
+    modules: ['@nuxt/image', '@nuxt/ui', '@nuxt/content', 'nuxt-og-image'],
+
+    devtools: {
+        enabled: true,
     },
-    app: {
-        baseURL: "/stoocs-docs",
-    },
-    css: ["~/assets/css/theme-custom.css"],
+
+    css: ['~/assets/css/main.css'],
+
     content: {
-        documentDriven: true,
-        experimental: {
-            clientDB: true,
+        build: {
+            markdown: {
+                toc: {
+                    searchDepth: 1,
+                },
+            },
         },
     },
-    ssr: true,
+
+    compatibilityDate: '2024-07-11',
+
+    nitro: {
+        prerender: {
+            routes: ['/'],
+            crawlLinks: true,
+            autoSubfolderIndex: false,
+        },
+    },
+
+    icon: {
+        provider: 'iconify',
+    },
 });
