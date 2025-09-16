@@ -39,35 +39,12 @@ Les données des MOOCs, réinventées pour le plaisir des yeux et des statistiqu
   :::
 
 #default
-  :::prose-pre
-  ---
-  code: |
-    export default defineNuxtConfig({
-      modules: [
-        '@nuxt/ui',
-        '@nuxt/content',
-        'nuxt-og-image',
-        'nuxt-llms'
-      ],
-
-      css: ['~/assets/css/main.css']
-    })
-  filename: nuxt.config.ts
-  ---
-
-  ```ts [nuxt.config.ts]
-  export default defineNuxtConfig({
-    modules: [
-      '@nuxt/ui',
-      '@nuxt/content',
-      'nuxt-og-image',
-      'nuxt-llms'
-    ],
-
-    css: ['~/assets/css/main.css']
-  })
-  ```
-  :::
+:::u-color-mode-image
+---
+light: /images/app-light.png
+dark: /images/app-dark.png
+---
+:::
 ::
 
 ::u-page-section{class="dark:bg-gradient-to-b from-neutral-950 to-neutral-900"}
